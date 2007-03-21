@@ -1,0 +1,7 @@
+category: Gnome Graphics
+requires: cygwin gimp2 glib2 gtk2-x11 libintl8 libjpeg62 liblcms1 libsane1 libtiff5 zlib
+sdesc: "SANE GTK+ frontend"
+ldesc: "XSane is a GTK+ SANE scanner frontend. You can scan to file, do a
+photocopy, create a fax, create and send a mail and start XSane from
+the GIMP as gimp plug in."
+
