@@ -1,0 +1,7 @@
+DESCRIPTION="GTK+ SANE frontend"
+HOMEPAGE="http://www.xsane.org/"
+SRC_URI="ftp://ftp.sane-project.org/pub/sane/${PN}/${P}.tar.gz"
+
+ACLOCAL='aclocal -I m4'
+NO_AUTOHEADER=1
+DOCS='xsane.[A-Z]*'

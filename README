@@ -6,12 +6,13 @@ the GIMP as gimp plug in.
 
 Runtime requirements:
   cygwin-1.5.24-2
-  gimp2-2.2.13-1
-  glib2-2.12.9-1
-  gtk2-x11-2.10.9-1
+  gimp2-2.4.3-1
+  glib2-2.14.4-1
+  gtk2-x11-2.12.2-1
   libintl8-0.15-1
   libjpeg62-6b-12
-  liblcms1-1.16-1
+  liblcms1-1.17-1
+  libpng12-1.2.23-1
   libsane1-1.0.18-1
   libtiff5-3.8.2-3
   zlib-1.2.3-2
@@ -20,9 +21,9 @@ Build requirements:
 (besides corresponding -devel packages)
   cygwin-1.5.24-2
   autoconf2.5-2.61-1
-  automake1.9-1.9.6-2
+  automake1.8-1.8.5-3
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -30,59 +31,59 @@ Build requirements:
   sed-4.1.5-2
 
 Canonical website:
-  http://www.gnome.org/
+  http://www.xsane.org/
 
 Canonical download:
-  ftp://ftp.gnome.org/pub/gnome/sources/xsane/
+  ftp://ftp.sane-project.org/pub/sane/xsane/
 
 -------------------------------------------
 
 Build instructions:
-  unpack xsane-0.994-X-src.tar.bz2
+  unpack xsane-0.995-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./xsane-0.994-X.cygport all
+  cygport ./xsane-0.995-X.cygport all
 
 This will create:
-  /usr/src/xsane-0.994-X-src.tar.bz2
-  /usr/src/xsane-0.994-X.tar.bz2
+  /usr/src/xsane-0.995-X-src.tar.bz2
+  /usr/src/xsane-0.995-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/xsane.exe
-  /usr/share/doc/xsane-0.994/xsane.ACCELKEYS
-  /usr/share/doc/xsane-0.994/xsane.AUTHOR
-  /usr/share/doc/xsane-0.994/xsane.BEGINNERS-INFO
-  /usr/share/doc/xsane-0.994/xsane.BUGS
-  /usr/share/doc/xsane-0.994/xsane.CHANGES
-  /usr/share/doc/xsane-0.994/xsane.CHANGES~
-  /usr/share/doc/xsane-0.994/xsane.COPYING
-  /usr/share/doc/xsane-0.994/xsane.FAQ
-  /usr/share/doc/xsane-0.994/xsane.INSTALL
-  /usr/share/doc/xsane-0.994/xsane.LANGUAGES
-  /usr/share/doc/xsane-0.994/xsane.LOGO
-  /usr/share/doc/xsane-0.994/xsane.NEWS
-  /usr/share/doc/xsane-0.994/xsane.ONLINEHELP
-  /usr/share/doc/xsane-0.994/xsane.PROBLEMS
-  /usr/share/doc/xsane-0.994/xsane.REMOVE
-  /usr/share/doc/xsane-0.994/xsane.ROOT
-  /usr/share/doc/xsane-0.994/xsane.RPM
-  /usr/share/doc/xsane-0.994/xsane.TODO
-  /usr/share/doc/xsane-0.994/xsane.VENDOR-STRINGS
-  /usr/share/doc/Cygwin/xsane-0.994.README
+  /usr/share/doc/xsane-0.995/xsane.ACCELKEYS
+  /usr/share/doc/xsane-0.995/xsane.AUTHOR
+  /usr/share/doc/xsane-0.995/xsane.BEGINNERS-INFO
+  /usr/share/doc/xsane-0.995/xsane.BUGS
+  /usr/share/doc/xsane-0.995/xsane.CHANGES
+  /usr/share/doc/xsane-0.995/xsane.COPYING
+  /usr/share/doc/xsane-0.995/xsane.FAQ
+  /usr/share/doc/xsane-0.995/xsane.INSTALL
+  /usr/share/doc/xsane-0.995/xsane.LANGUAGES
+  /usr/share/doc/xsane-0.995/xsane.LOGO
+  /usr/share/doc/xsane-0.995/xsane.NEWS
+  /usr/share/doc/xsane-0.995/xsane.ONLINEHELP
+  /usr/share/doc/xsane-0.995/xsane.PROBLEMS
+  /usr/share/doc/xsane-0.995/xsane.REMOVE
+  /usr/share/doc/xsane-0.995/xsane.ROOT
+  /usr/share/doc/xsane-0.995/xsane.RPM
+  /usr/share/doc/xsane-0.995/xsane.TODO
+  /usr/share/doc/xsane-0.995/xsane.VENDOR-STRINGS
   /usr/share/locale/ca/LC_MESSAGES/xsane.mo
   /usr/share/locale/cs/LC_MESSAGES/xsane.mo
   /usr/share/locale/da/LC_MESSAGES/xsane.mo
   /usr/share/locale/de/LC_MESSAGES/xsane.mo
   /usr/share/locale/es/LC_MESSAGES/xsane.mo
+  /usr/share/locale/fi/LC_MESSAGES/xsane.mo
   /usr/share/locale/fr/LC_MESSAGES/xsane.mo
   /usr/share/locale/hu/LC_MESSAGES/xsane.mo
   /usr/share/locale/it/LC_MESSAGES/xsane.mo
   /usr/share/locale/ja/LC_MESSAGES/xsane.mo
   /usr/share/locale/nl/LC_MESSAGES/xsane.mo
+  /usr/share/locale/pa/LC_MESSAGES/xsane.mo
   /usr/share/locale/pl/LC_MESSAGES/xsane.mo
   /usr/share/locale/pt/LC_MESSAGES/xsane.mo
   /usr/share/locale/pt_BR/LC_MESSAGES/xsane.mo
@@ -254,6 +255,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.995-1 -----
+Version bump.
 
 ----- version 0.994-1 -----
 Initial release for Cygwin.
